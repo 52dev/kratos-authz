@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/tx7do/kratos-authz/engine"
-	"github.com/tx7do/kratos-authz/engine/zanzibar/keto"
-	"github.com/tx7do/kratos-authz/engine/zanzibar/openfga"
+	"github.com/52dev/kratos-authz/engine"
+	"github.com/52dev/kratos-authz/engine/zanzibar/keto"
+	"github.com/52dev/kratos-authz/engine/zanzibar/openfga"
 )
 
 func init() {

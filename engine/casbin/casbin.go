@@ -8,8 +8,8 @@ import (
 	stdCasbin "github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/model"
 
-	"github.com/tx7do/kratos-authz/engine"
-	"github.com/tx7do/kratos-authz/engine/casbin/assets"
+	"github.com/52dev/kratos-authz/engine"
+	"github.com/52dev/kratos-authz/engine/casbin/assets"
 )
 
 func init() {

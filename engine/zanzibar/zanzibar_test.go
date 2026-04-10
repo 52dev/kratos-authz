@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
+	"github.com/52dev/kratos-authz/engine"
 	"github.com/stretchr/testify/assert"
-	"github.com/tx7do/kratos-authz/engine"
 )
 
 func TestOpenFga(t *testing.T) {
 	ctx := context.Background()
-	s, err := NewEngine(ctx, WithOpenFga("http", "127.0.0.1:8080", "", ""))
+	s, err := NewEngine(ctx)
 	assert.Nil(t, err)
 	assert.NotNil(t, s)
 

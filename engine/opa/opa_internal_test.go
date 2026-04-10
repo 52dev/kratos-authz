@@ -15,7 +15,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tx7do/kratos-authz/engine"
+	"github.com/52dev/kratos-authz/engine"
 )
 
 // This test file is for micro-benchmarks

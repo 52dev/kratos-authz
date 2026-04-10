@@ -3,7 +3,7 @@ package noop
 import (
 	"context"
 
-	"github.com/tx7do/kratos-authz/engine"
+	"github.com/52dev/kratos-authz/engine"
 )
 
 func init() {

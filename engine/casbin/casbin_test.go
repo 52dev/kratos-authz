@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tx7do/kratos-authz/engine"
+	"github.com/52dev/kratos-authz/engine"
 )
 
 var (

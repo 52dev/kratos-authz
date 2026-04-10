@@ -20,7 +20,7 @@ import (
 	"github.com/open-policy-agent/opa/storage/inmem"
 	"github.com/open-policy-agent/opa/topdown"
 
-	"github.com/tx7do/kratos-authz/engine"
+	"github.com/52dev/kratos-authz/engine"
 )
 
 func init() {

@@ -6,7 +6,7 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/middleware"
 
-	"github.com/tx7do/kratos-authz/engine"
+	"github.com/52dev/kratos-authz/engine"
 )
 
 func Server(authorizer engine.Authorizer, opts ...Option) middleware.Middleware {

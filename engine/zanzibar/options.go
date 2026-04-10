@@ -1,8 +1,8 @@
 package zanzibar
 
 import (
-	"github.com/tx7do/kratos-authz/engine/zanzibar/keto"
-	"github.com/tx7do/kratos-authz/engine/zanzibar/openfga"
+	"github.com/52dev/kratos-authz/engine/zanzibar/keto"
+	"github.com/52dev/kratos-authz/engine/zanzibar/openfga"
 )
 
 type OptFunc func(*State)

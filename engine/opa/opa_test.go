@@ -20,8 +20,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tx7do/kratos-authz/engine"
-	"github.com/tx7do/kratos-authz/engine/opa"
+	"github.com/52dev/kratos-authz/engine"
+	"github.com/52dev/kratos-authz/engine/opa"
 )
 
 /************ ************ ************ ************ ************ ************
