@@ -1,4 +1,4 @@
-APP_VERSION=v0.0.1
+APP_VERSION=v1.0.0
 
 PACKAGE_LIST = engine/opa/ engine/casbin/ engine/zanzibar/ middleware/
 
